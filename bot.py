@@ -6,8 +6,8 @@ from aiogram.filters import Command
 from aiogram import F
 
 # Sozlamalar
-GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbwwIqERQjrpn_0a8WOZhPVKBzXcIcKHJfTqSg4TttWAB3tMqpBWYriCZ7XrdEIVnaxSmw/exec"
-API_TOKEN = '8254801454:AAFBQNkF0wXxQjLBgxCKzSJ0gk3Fu99Y9EM'
+GOOGLE_SHEET_URL = "Google_sheet_url"
+API_TOKEN = 'Bot_Token'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
